@@ -1,0 +1,39 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+    .footer p {
+        margin: 0.5rem 0;
+    }
+
+    .footer .social-link {
+        color: white;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+        .footer .social-link:hover {
+            text-decoration: underline;
+        }
+
+

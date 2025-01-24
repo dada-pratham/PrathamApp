@@ -1,0 +1,58 @@
+/* PhonePay.css */
+
+/* Container styles */
+.phonepay-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .phonepay-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .phonepay-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .phonepay-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* QR code container */
+  .qr-code {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Error or success messages */
+  .message {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #d32f2f; /* Red for error */
+  }
+  
+  .message.success {
+    color: #4caf50; /* Green for success */
+  }
+  
