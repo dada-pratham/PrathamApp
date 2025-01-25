@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000000;
+    color: #ed8b8b;
 }
 
 .container {
@@ -15,10 +15,10 @@ body {
 
 /* Footer Section */
 .footer {
-    background: #333;
-    color: white;
+    background: #000000;
+    color: #ed8b8b;
     text-align: center;
-    padding: 2rem 0;
+    padding: 20px;
 }
 
     .footer p {

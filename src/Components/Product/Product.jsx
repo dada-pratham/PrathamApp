@@ -2,7 +2,7 @@ import React from 'react';
 import './Product.css'
 const Product = () => {
   const products = [
-    { id: 1, name: 'Product 1', description: 'Description 1', price: '$10', img: 'https://via.placeholder.com/150' },
+    { id: 1, name: 'Product 1', description: 'Description 1', price: '$10', img: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRCT0B6M7cVqxi5rbzoqN5LkLeTRdxpDw_0LJ-boFfIoxmkxq8NlwZE6YhNNW8GAl_-RRC_nZgvMJfUzf5O3vgzNO6fLCMea9T14Eg3-JdbiYwnc-b2sAMaNA&usqp=CAE' },
     { id: 2, name: 'Product 2', description: 'Description 2', price: '$20', img: 'https://via.placeholder.com/150' },
     { id: 3, name: 'Product 3', description: 'Description 3', price: '$30', img: 'https://via.placeholder.com/150' },
     { id: 4, name: 'Product 4', description: 'Description 4', price: '$40', img: 'https://via.placeholder.com/150' },
@@ -12,16 +12,7 @@ const Product = () => {
     { id: 8, name: 'Product 8', description: 'Description 8', price: '$80', img: 'https://via.placeholder.com/150' },
     { id: 9, name: 'Product 9', description: 'Description 9', price: '$90', img: 'https://via.placeholder.com/150' },
     { id: 10, name: 'Product 10', description: 'Description 10', price: '$100', img: 'https://via.placeholder.com/150' },
-    { id: 11, name: 'Product 11', description: 'Description 11', price: '$110', img: 'https://via.placeholder.com/150' },
-    { id: 12, name: 'Product 12', description: 'Description 12', price: '$120', img: 'https://via.placeholder.com/150' },
-    { id: 13, name: 'Product 13', description: 'Description 13', price: '$130', img: 'https://via.placeholder.com/150' },
-    { id: 14, name: 'Product 14', description: 'Description 14', price: '$140', img: 'https://via.placeholder.com/150' },
-    { id: 15, name: 'Product 15', description: 'Description 15', price: '$150', img: 'https://via.placeholder.com/150' },
-    { id: 16, name: 'Product 16', description: 'Description 16', price: '$160', img: 'https://via.placeholder.com/150' },
-    { id: 17, name: 'Product 17', description: 'Description 17', price: '$170', img: 'https://via.placeholder.com/150' },
-    { id: 18, name: 'Product 18', description: 'Description 18', price: '$180', img: 'https://via.placeholder.com/150' },
-    { id: 19, name: 'Product 19', description: 'Description 19', price: '$190', img: 'https://via.placeholder.com/150' },
-    { id: 20, name: 'Product 20', description: 'Description 20', price: '$200', img: 'https://via.placeholder.com/150' },
+  
   ];
 
   return (

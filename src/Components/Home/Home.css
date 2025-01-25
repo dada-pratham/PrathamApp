@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #000000;
   }
   
   .container {
@@ -16,7 +16,6 @@ body {
   /* Full-Width Slider Section */
   .full-slider-section {
     position: relative;
-    width: 100%;
     overflow: hidden;
   }
   

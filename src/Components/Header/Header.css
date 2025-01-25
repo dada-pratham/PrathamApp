@@ -1,7 +1,7 @@
 /* Header Styles */
 .header {
-    background: #c8e7e6;
-    color: rgb(28, 20, 20);
+    background: #000000;
+    color: rgb(243, 34, 23);
     padding: 15px 20px;
     position: sticky;
     top: 0;
@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 20px;
+    height: 50px;
 }
 
 .header .container {
@@ -39,12 +39,12 @@
 }
 
 .header .nav ul li a {
-    color: rgb(28, 20, 20);
+    color: rgb(239, 198, 143);
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s;
 }
 
 .header .nav ul li a:hover {
-    color: #00bcd4;
+    color: rgb(255, 0, 0);
 }
